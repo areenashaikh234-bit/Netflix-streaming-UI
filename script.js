@@ -90,7 +90,7 @@ const modal = document.getElementById("movieModal");
 cards.forEach((card, index) => {
   card.addEventListener("click", () => {
     document.getElementById("modalTitle").innerText = movies[index].title;
-    document.getElementById("modalRating").innerText = movies[index].innerText = movies[index].rating;
+   document.getElementById("modalRating").innerText = movies[index].rating;
     document.getElementById("modalGenre").innerText = movies[index].genre;
     document.getElementById("modalDescription").innerText = movies[index].description;
 
