@@ -239,3 +239,17 @@ footer{
     background:#111;
     margin-top:50px;
 }
+.movie-info{
+    padding:10px 5px;
+}
+
+.movie-info h3{
+    font-size:18px;
+    margin-bottom:5px;
+    color:#fff;
+}
+
+.movie-info p{
+    color:#b3b3b3;
+    font-size:14px;
+}
